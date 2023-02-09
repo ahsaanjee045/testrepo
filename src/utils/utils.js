@@ -1,5 +1,5 @@
 export const searching =(arr, searchBy, keyword) => {
-    return arr.filter((item)=> item[searchB].toLowerCase().includes(keyword.toLowerCase()))
+    return arr.filter((item)=> item[searchBy].toLowerCase().includes(keyword.toLowerCase()))
 }
 
 export const filtering = (arr, keyword) => {
